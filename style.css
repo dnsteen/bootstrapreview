@@ -1,10 +1,10 @@
 html,
 body{
-
+    font-family: 'Poppins', sans-serif
 }
 
 .page-header{
-    margin-top: 1rem;
+    margin-top: 5rem;
     font-size: 1.25rem;
     color: #fff;
 }
@@ -12,4 +12,23 @@ body{
 .gradient{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 32%, rgba(153,6,6,1) 100%);
+}
+.logo{
+    width: 125px
+}
+
+.comp{
+    width: 150px
+}
+.feature{
+    color: #fff
+}
+.feature ul{
+    padding-left: 2rem ;
+    list-style-type: none;
+}
+feature ul li{
+    padding-left: 2rem;
+    background-image: url("<i class="fas fa-check"></i>");
+    background-repeat: no-repeat;
 }
